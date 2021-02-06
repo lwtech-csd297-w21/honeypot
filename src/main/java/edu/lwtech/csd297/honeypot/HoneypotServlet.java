@@ -26,7 +26,7 @@ public class HoneypotServlet extends HttpServlet {
 
         String ip = request.getRemoteAddr();
         String method = request.getMethod();
-        String uri = request.getRequestURI()
+        String uri = request.getRequestURI();
         String userAgent = request.getHeader("User-Agent");
         if (userAgent == null)
             userAgent = "";
