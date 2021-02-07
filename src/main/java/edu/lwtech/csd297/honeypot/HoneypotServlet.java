@@ -45,6 +45,8 @@ public class HoneypotServlet extends HttpServlet {
         }
     }
 
+    // Add a doPost method here that just calls doGet()
+    
     // Add a getServletInfo method here
 
     // Add a destroy method here that adds a different banner to the logfile whenever the servlet is shutdown
